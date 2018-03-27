@@ -715,6 +715,7 @@
 		8E82306F1F7BA99C00B750DC /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E82306E1F7BA99B00B750DC /* AppTests.swift */; };
 		8E88418C1DB5358D003BB11D /* SmartTrackerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9398B41D9583810065D58D /* SmartTrackerConfiguration.swift */; };
 		8E9398B51D9583810065D58D /* SmartTrackerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9398B41D9583810065D58D /* SmartTrackerConfiguration.swift */; };
+		8EC45F07206A492600B0EC52 /* ATReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5BE1D36215D00702747 /* ATReachability.swift */; };
 		8EC97ED31D5A2CC1007360F3 /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC97ED21D5A2CC1007360F3 /* APITests.swift */; };
 		8EDC3CF61D3E225100A14458 /* ApiS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC3CF51D3E225100A14458 /* ApiS3.swift */; };
 		8EFF4AF81D50D79C005DF2A7 /* DeviceRotationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4AF71D50D79C005DF2A7 /* DeviceRotationEvent.swift */; };
@@ -1981,6 +1982,7 @@
 				4F47A4E01D35446700702747 /* Gesture.swift in Sources */,
 				4F47A5141D35446700702747 /* RichMedia.swift in Sources */,
 				4F47A4E41D35446700702747 /* IdentifiedVisitor.swift in Sources */,
+				8EC45F07206A492600B0EC52 /* ATReachability.swift in Sources */,
 				4F47A4F01D35446700702747 /* LiveVideo.swift in Sources */,
 				4F47A4FC1D35446700702747 /* NuggAd.swift in Sources */,
 				4F47A5491D35458E00702747 /* DefaultTrackerDelegate.swift in Sources */,
