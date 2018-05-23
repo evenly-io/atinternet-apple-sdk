@@ -161,7 +161,23 @@ class Storage: StorageProtocol {
                 throw NSError(domain: "ATTracker: unable to init database", code: -1, userInfo: nil)
             }
         }
+        _ = addSkipBackupAttributeToItemAtURL(url: dbURL)
         managedObjectContext!.persistentStoreCoordinator = persistentStoreCoordinator
+    }
+    
+    func addSkipBackupAttributeToItemAtURL(url: URL) -> Bool {
+        var url = url
+        var success: Bool
+        do {
+            var resourceValue = URLResourceValues()
+            resourceValue.isExcludedFromBackup = true
+            try url.setResourceValues(resourceValue)
+            success = true
+        } catch let error as NSError {
+            success = false
+            print("Error excluding \(url.lastPathComponent) from backup \(error)");
+        }
+        return success
     }
     
     func deleteOldDB() {
