@@ -20,9 +20,8 @@ Pod::Spec.new do |s|
 	s.subspec 'Tracker' do |tracker|
 		tracker.source_files = "ATInternetTracker/Sources/*.{h,m,swift}"
 		tracker.exclude_files = $smart_sdk + $external_dependencies
-		tracker.resources = "ATInternetTracker/Sources/*.{plist,png,json}", "ATInternetTracker/Sources/Images.xcassets"
+		tracker.resources = "ATInternetTracker/Sources/*.{plist,xcdatamodeld,png,json}", "ATInternetTracker/Sources/Images.xcassets"
 		tracker.frameworks = "CoreData", "CoreFoundation", "UIKit", "CoreTelephony", "SystemConfiguration"
-		tracker.resource_bundles = {'Tracker' => ['Tracker/*.xcdatamodeld']}
 		tracker.platform = :ios
 	end
 
