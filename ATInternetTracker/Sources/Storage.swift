@@ -109,10 +109,33 @@ class Storage: StorageProtocol {
     }()
     
     /// Data model
-    let managedObjectModel: NSManagedObjectModel? = {
-        let bundle = Bundle(for: Tracker.self)
-        let modelPath = bundle.path(forResource: "Tracker", ofType: "momd")
-        let modelURL = URL(fileURLWithPath: modelPath!)
+    let hitObjectModel: NSManagedObjectModel = {
+        let hit = NSManagedObjectModel()
+        
+        let hitEntity = NSEntityDescription()
+        hitEntity.name = "StoredOfflineHit"
+        hitEntity.managedObjectClassName = "StoredOfflineHit"
+        
+        let hitStr = NSAttributeDescription()
+        hitStr.name = "hit"
+        hitStr.attributeType = NSAttributeType.stringAttributeType
+        hitStr.isOptional = false
+        
+        let hitDate = NSAttributeDescription()
+        hitDate.name = "date"
+        hitDate.attributeType = NSAttributeType.dateAttributeType
+        hitDate.isOptional = false
+        
+        let hitRetry = NSAttributeDescription()
+        hitRetry.name = "retry"
+        hitRetry.attributeType = NSAttributeType.integer32AttributeType
+        hitRetry.isOptional = false
+        
+        hitEntity.properties = [hitStr, hitDate, hitRetry]
+        
+        hit.entities = [hitEntity]
+        
+        return hit
     }()
     
     let persistentStoreCoordinator: NSPersistentStoreCoordinator?
@@ -127,9 +150,7 @@ class Storage: StorageProtocol {
      Default initializer
      */
     private init() throws {
-        guard let managedObjectModel = self.managedObjectModel else {
-            throw NSError(domain: "ATTracker: managedObjectModel failure", code: -1, userInfo: nil)
-        }
+        let managedObjectModel = self.hitObjectModel
         persistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel)
         // URL of database
         let url = self.databaseDirectory

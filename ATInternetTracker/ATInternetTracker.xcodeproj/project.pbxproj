@@ -278,11 +278,6 @@
 		4F47A5B11D36214200702747 /* nuggad.manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F47A5A61D36214200702747 /* nuggad.manifest.json */; };
 		4F47A5B21D36214200702747 /* nuggad.manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F47A5A61D36214200702747 /* nuggad.manifest.json */; };
 		4F47A5B31D36214200702747 /* nuggad.manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F47A5A61D36214200702747 /* nuggad.manifest.json */; };
-		4F47A5B41D36214200702747 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */; };
-		4F47A5B51D36214200702747 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */; };
-		4F47A5B61D36214200702747 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */; };
-		4F47A5B71D36214200702747 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */; };
-		4F47A5B81D36214200702747 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */; };
 		4F47A5BF1D36215D00702747 /* ATReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5BE1D36215D00702747 /* ATReachability.swift */; };
 		4F47A5C01D36215D00702747 /* ATReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5BE1D36215D00702747 /* ATReachability.swift */; };
 		4F47A5C11D36215D00702747 /* ATReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5BE1D36215D00702747 /* ATReachability.swift */; };
@@ -429,7 +424,6 @@
 		4F47A8611D3D230600702747 /* TrackerTests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47A8601D3D230600702747 /* TrackerTests-Bridging-Header.h */; };
 		4F47A8621D3D230600702747 /* TrackerTests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47A8601D3D230600702747 /* TrackerTests-Bridging-Header.h */; };
 		4F47A8661D3D23D700702747 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A62C1D3624AF00702747 /* UIImageExtension.swift */; };
-		4F47A8681D3D260900702747 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */; };
 		4F47A86A1D3D270F00702747 /* DefaultConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F47A55A1D3620E800702747 /* DefaultConfiguration.plist */; };
 		4F47A86C1D3D271300702747 /* DefaultConfiguration~ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F47A55B1D3620E800702747 /* DefaultConfiguration~ipad.plist */; };
 		4F47A86D1D3D271300702747 /* DefaultConfiguration~iphone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F47A55C1D3620E800702747 /* DefaultConfiguration~iphone.plist */; };
@@ -489,7 +483,6 @@
 		4F47A95B1D3E2FE100702747 /* RichMediaSubclassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A7091D3D126500702747 /* RichMediaSubclassTests.swift */; };
 		4F47A95C1D3E2FE100702747 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4501D3542A400702747 /* Dispatcher.swift */; };
 		4F47A95D1D3E2FE100702747 /* ContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A6F11D3D126500702747 /* ContextTests.swift */; };
-		4F47A95E1D3E2FE100702747 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */; };
 		4F47A95F1D3E2FE100702747 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4B01D35446700702747 /* Location.swift */; };
 		4F47A9601D3E2FE100702747 /* Debugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4981D35436200702747 /* Debugger.swift */; };
 		4F47A9621D3E2FE100702747 /* BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A6ED1D3D126500702747 /* BuilderTests.swift */; };
@@ -600,7 +593,6 @@
 		4FF594321D3F63800004D336 /* TechnicalContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A7151D3D126500702747 /* TechnicalContextTests.swift */; };
 		4FF594331D3F63800004D336 /* TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A7171D3D126500702747 /* TrackerTests.swift */; };
 		4FF594351D3F65E20004D336 /* DefaultConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F47A55A1D3620E800702747 /* DefaultConfiguration.plist */; };
-		4FF594361D3F65E80004D336 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */; };
 		4FF594371D3F66250004D336 /* TechnicalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4571D3542A400702747 /* TechnicalContext.swift */; };
 		4FF594381D3F66330004D336 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A44B1D3542A400702747 /* BackgroundTask.swift */; };
 		4FF594391D3F66350004D336 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A44C1D3542A400702747 /* Buffer.swift */; };
@@ -828,7 +820,6 @@
 		4F47A55D1D3620E800702747 /* DefaultConfiguration~ipod.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DefaultConfiguration~ipod.plist"; sourceTree = "<group>"; };
 		4F47A5A51D36214200702747 /* core.manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = core.manifest.json; sourceTree = "<group>"; };
 		4F47A5A61D36214200702747 /* nuggad.manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nuggad.manifest.json; sourceTree = "<group>"; };
-		4F47A5A81D36214200702747 /* Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tracker.xcdatamodel; sourceTree = "<group>"; };
 		4F47A5BE1D36215D00702747 /* ATReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATReachability.swift; sourceTree = "<group>"; };
 		4F47A5C61D36223D00702747 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		4F47A5D41D3622B100702747 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
@@ -1219,7 +1210,6 @@
 				4F47A55B1D3620E800702747 /* DefaultConfiguration~ipad.plist */,
 				4F47A55C1D3620E800702747 /* DefaultConfiguration~iphone.plist */,
 				4F47A55D1D3620E800702747 /* DefaultConfiguration~ipod.plist */,
-				4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */,
 				4F47A5A51D36214200702747 /* core.manifest.json */,
 				4F47A5A61D36214200702747 /* nuggad.manifest.json */,
 			);
@@ -1867,7 +1857,6 @@
 				8E3061E020A9945A00D433B0 /* DynamicRefresh.swift in Sources */,
 				4F47A4471D3541C500702747 /* ATInternet.swift in Sources */,
 				4F47A4E51D35446700702747 /* InternalSearch.swift in Sources */,
-				4F47A5B41D36214200702747 /* Tracker.xcdatamodeld in Sources */,
 				4F47A4C51D35446700702747 /* Campaign.swift in Sources */,
 				4F47A46A1D3542A400702747 /* Context.swift in Sources */,
 				4F47A48A1D3542A400702747 /* TechnicalContext.swift in Sources */,
@@ -1905,7 +1894,6 @@
 				4F47A47C1D3542A400702747 /* Param.swift in Sources */,
 				4F47A5351D35451A00702747 /* Crash.m in Sources */,
 				4F47A5CE1D36223D00702747 /* StringExtension.swift in Sources */,
-				4F47A5B61D36214200702747 /* Tracker.xcdatamodeld in Sources */,
 				4F47A4901D3542A400702747 /* Tool.swift in Sources */,
 				4F47A4941D3542A400702747 /* Tracker.swift in Sources */,
 				4F47A4781D3542A400702747 /* LifeCycle.swift in Sources */,
@@ -1963,7 +1951,6 @@
 				4F47A47D1D3542A400702747 /* Param.swift in Sources */,
 				4F47A5361D35451A00702747 /* Crash.m in Sources */,
 				4F47A5CF1D36223D00702747 /* StringExtension.swift in Sources */,
-				4F47A5B71D36214200702747 /* Tracker.xcdatamodeld in Sources */,
 				4F47A4911D3542A400702747 /* Tool.swift in Sources */,
 				4F47A4951D3542A400702747 /* Tracker.swift in Sources */,
 				4F47A4791D3542A400702747 /* LifeCycle.swift in Sources */,
@@ -2042,7 +2029,6 @@
 				4F47A4FE1D35446700702747 /* Offline.swift in Sources */,
 				4F47A4481D3541C500702747 /* ATInternet.swift in Sources */,
 				4F47A4E61D35446700702747 /* InternalSearch.swift in Sources */,
-				4F47A5B51D36214200702747 /* Tracker.xcdatamodeld in Sources */,
 				4F47A4C61D35446700702747 /* Campaign.swift in Sources */,
 				4F47A46B1D3542A400702747 /* Context.swift in Sources */,
 				4F47A48B1D3542A400702747 /* TechnicalContext.swift in Sources */,
@@ -2147,7 +2133,6 @@
 				4F47A58B1D36210700702747 /* CustomTreeStructure.swift in Sources */,
 				4F47A5831D3620FF00702747 /* Debugger.swift in Sources */,
 				4F47A5FE1D3623B100702747 /* ConnectedState.swift in Sources */,
-				4F47A5B81D36214200702747 /* Tracker.xcdatamodeld in Sources */,
 				4F47A5851D36210700702747 /* Aisle.swift in Sources */,
 				8E6DD3531F4D83B000E81E79 /* SocketIOClientSpec.swift in Sources */,
 				8E6DD3591F4D83B000E81E79 /* SocketTypes.swift in Sources */,
@@ -2259,7 +2244,6 @@
 				4F47A7FC1D3D13A400702747 /* RichMediaSubclassTests.swift in Sources */,
 				4F47A8411D3D192C00702747 /* Dispatcher.swift in Sources */,
 				4F47A7ED1D3D135500702747 /* ContextTests.swift in Sources */,
-				4F47A8681D3D260900702747 /* Tracker.xcdatamodeld in Sources */,
 				4F47A81B1D3D17FC00702747 /* Location.swift in Sources */,
 				4F47A85E1D3D226B00702747 /* Debugger.swift in Sources */,
 				4F47A7E91D3D134F00702747 /* BuilderTests.swift in Sources */,
@@ -2339,7 +2323,6 @@
 				4FF594641D3F66C20004D336 /* Video.swift in Sources */,
 				4FF594571D3F669D0004D336 /* LiveVideo.swift in Sources */,
 				4FF594271D3F61E50004D336 /* GPSTests.swift in Sources */,
-				4FF594361D3F65E80004D336 /* Tracker.xcdatamodeld in Sources */,
 				4FF5945D1D3F66AC0004D336 /* Order.swift in Sources */,
 				4FF594481D3F66700004D336 /* StringExtension.swift in Sources */,
 				4FF594391D3F66350004D336 /* Buffer.swift in Sources */,
@@ -2487,7 +2470,6 @@
 				4F47A95D1D3E2FE100702747 /* ContextTests.swift in Sources */,
 				8E6DD3681F4DA8AE00E81E79 /* SocketExtensions.swift in Sources */,
 				8E6DD3611F4DA8AE00E81E79 /* SocketEngine.swift in Sources */,
-				4F47A95E1D3E2FE100702747 /* Tracker.xcdatamodeld in Sources */,
 				4F47A95F1D3E2FE100702747 /* Location.swift in Sources */,
 				4F47A9851D3E316B00702747 /* GestureEvent.swift in Sources */,
 				8E6DD36C1F4DA8AE00E81E79 /* SocketIOClientSpec.swift in Sources */,
@@ -3694,19 +3676,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4F47A5A71D36214200702747 /* Tracker.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4F47A5A81D36214200702747 /* Tracker.xcdatamodel */,
-			);
-			currentVersion = 4F47A5A81D36214200702747 /* Tracker.xcdatamodel */;
-			path = Tracker.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4F47A3D31D351E3C00702747 /* Project object */;
 }
