@@ -790,6 +790,7 @@ class Storage: StorageProtocol {
 }
 
 /// Stored Offline hit
+@objc(StoredOfflineHit)
 class StoredOfflineHit: NSManagedObject {
     /// Hit
     @NSManaged var hit: String
